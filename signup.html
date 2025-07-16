@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPU Connect - Sign Up</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-placeholder">
+        </div>
+
+    <div class="main-content-wrapper">
+        <div class="auth-card">
+            <h2>Create Your Account</h2>
+            <form id="signupForm">
+                <div class="form-group">
+                    <label for="signupName">Full Name:</label>
+                    <input type="text" id="signupName" name="name" placeholder="Your Full Name" required>
+                </div>
+                <div class="form-group">
+                    <label for="signupEmail">University Email:</label>
+                    <input type="email" id="signupEmail" name="email" placeholder="e.g., username@lpu.in" required>
+                </div>
+                 <div class="form-group">
+                    <label for="signupRegNo">Registration Number:</label>
+                    <input type="text" id="signupRegNo" name="regno" placeholder="Your LPU Reg. No." required>
+                </div>
+                <div class="form-group">
+                    <label for="signupPassword">Password:</label>
+                    <input type="password" id="signupPassword" name="password" placeholder="Create a password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" id="confirmPassword" name="confirm_password" placeholder="Confirm your password" required>
+                </div>
+                <button type="submit" class="auth-button">Sign Up</button>
+            </form>
+            <p class="auth-footer-text">Already have an account? <a href="login.html">Login</a></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p><strong>&copy; LPU-Connect All Rights Reserved</strong></p>
+    </footer>
+</body>
+</html>

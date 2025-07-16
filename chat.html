@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LPU Chat</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar-placeholder">
+        </div>
+
+    <div class="main-content-wrapper">
+        <div class="chat-container">
+            <h2>LPU Student Chatroom</h2>
+            <div id="chat-box">
+                Engage with peers here!
+            </div>
+            <form class="chat-form" onsubmit="sendMessage(); return false;">
+                <input type="text" id="messageInput" placeholder="Type your message..." required />
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
